@@ -18,17 +18,24 @@ new_class.remove('Carla Gentry')
 # Print the list
 print(new_class)
 
-
 # Create the Dictionary
 
 courses = { 'Math' : 65, 'English' : 70, 'History' : 80, 'French' : 70, 'Science' : 60}
 
 # Slice the dict and stores  the all subjects marks in variable
-total = 65 + 70 + 80 + 70 + 60;
+math = courses['Math']
+english = courses['English']
+history = courses['History']
+french = courses['French']
+science = courses['Science']
+
 # Store the all the subject in one variable `Total`
-print(total)
+
+total = math + english + history + french + science
+
 # Print the total
 
+print(total)
 
 # Insert percentage formula
 percentage = total *100 / 500;
@@ -41,19 +48,19 @@ mathematics = { 'Geoffrey Hinton' : 78, 'Andrew Ng' : 95, 'Sebastian Raschka': 6
 max_marks_scored = max(mathematics,key = mathematics.get)
 topper = print (max_marks_scored)
 # Given string
-
-
+topper = 'andrew ng'
+topper.split(' ')
+split_names = topper.split(' ')
+split_names
 # Create variable first_name 
-First_name = 'Andrew'
+first_name = split_names[0]
 # Create variable Last_name and store last two element in the list
-Last_name = 'Ng'
+last_name = split_names[1]
 # Concatenate the string
-full_name = Last_name + ' ' + First_name
+full_name = last_name + ' ' + first_name
 # print the full_name
 print(full_name)
 # print the name in upper case
 certificate_name = full_name.upper()
 print(certificate_name)
 # Code ends here
-
-
